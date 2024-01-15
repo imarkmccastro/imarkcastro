@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    </style>
+  </head>
+  <body>
+    
+    <!-- Header Section -->
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Mark Castro</a></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Explore</a></li>
+            <li><a href="#projects"> Abt. School</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav id="hamburger-nav">
+        <div class="logo"><a href="index.html">Mark Castro</a></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Explore</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Abt. School</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src=".//profile-pic.png" alt="Mark Castro profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text_">Hello, I'm</p>
+          <h1 class="title">Mark Castro</h1>
+          <p class="section__text__p2">Grade 12 - St Peter</p>
+          <div class="btn-container">
+            </button>
+          </div>
+          <div id="socials-container">
+            <a href="https://www.facebook.com/profile.php?id=100071775350734" target="_blank">
+              <img src=".//icons8-facebook-50.png"/></a>
+              <a href="https://www.instagram.com/i.maarkk/" target="_blank">
+                <img src=".//icons8-instagram-53.png"/></a>
+          </div>
+        </div>
+      </section>
+      
+<!-- End Header Section -->
+
+<!-- About Section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src=".//experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>CODM: Garena Pro Player<br />Philippine Robotics Olympiad: Finalist (2022)</p>
+              <p>Robotics Virtual Games: Finalist (2022)<br /></p>
+              <p>Olongapo City Robotics Cup: Champion (2023)<br />National Science Quest Robotics: First Place (2023)</p>
+              </div>
+            <div class="details-container">
+              <img
+                src=".//education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Science, Technology, Engineering, and Mathemathics (STEM) - SHS<br />Special Program in the Arts- JHS</p>
+              <p>Mangan - Vaca Elementary School - Elementary<br />Subic Christian Kiddie School - Kinder</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a dedicated student, I engage passionately in academic pursuits, consistently pursuing knowledge and intellectual growth. My enthusiasm for learning extends beyond the classroom, driving me to explore diverse subjects. Eager to embrace challenges, I approach education as a transformative journey, constantly evolving and expanding my understanding of the world.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src=".//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- End About Section -->
+    
+    <!-- Experience Section -->
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Hobbies and Passion</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Hobbies</h2>
+        <div class="article-container">
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Personal Growth</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Music</h3>
+              <p>Listening to Music</p>
+            </div>
+          </article>
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h1>Toys</h1>
+              <p>Collections</p>
+            </div>
+          </article>
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Poetry</h3>
+              <p>Writing poems and verses.</p>
+            </div>
+          </article>
+          </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Passion</h2>
+        <div class="article-container">
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Technology</h3>
+              <p>Coding and  Innovation</p>
+            </div>
+          </article>
+          <article>
+            <img src=".//checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>E-Sports</h3>
+              <p>Competitive Gaming</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src=".//arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+</section>
+<!-- End Experience Section -->
+
+<!-- About School Section -->
+<section id="projects">
+  <p class="section__text__p1">Browse </p>
+  <h1 class="title">About School</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Project One -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src=".//AwardsCover.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Student Awards</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('StudentAwards.html', '_blank')"
+          >
+            Open
+          </button>
+        </div>
+      </div>
+
+<!-- Project Two -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src=".//MILCover.png" alt="Project 2" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Subject: MIL</h2>
+  <div class="btn-container">
+    <button
+      class="btn btn-color-2 project-btn"
+      onclick="window.open('MILTopic.html', '_blank')"
+    >
+      Open
+    </button>
+  </div>
+</div>
+
+
+      <!-- Project Three -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src=".//ClassCover.png" alt="Project 3" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">About: Class</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('aboutclass.html', '_blank')"
+          >
+            Open
+          </button>
+        </div>
+      </div>
+
+      <!-- Closing tags for the first three projects should be placed here -->
+
+    </div>
+
+</section>
+<!-- End Project Section -->
+
+
+
+  <!-- Contact Section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src=".//email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsVtvSrNVdLfFKhQprkZWqcZJgCzkXBxxVcLtsJnnpgVmxDDmqBpbJhrcRnDddhdLHZBl" target="_blank">markmccastro@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src=".//icons8-call-50.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https:" target="_blank">09762302359</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <script src="script.js"></script>
+  </body>
+</html>
